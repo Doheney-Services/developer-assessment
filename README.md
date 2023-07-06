@@ -1,3 +1,13 @@
+
+Create a user using postman 
+
+
+
+
+
+
+
+
 # Fullstack Developer Assessment
 A technical assessment exercise. The purpose of this exercise is to assess your ability across several skills including;
 
