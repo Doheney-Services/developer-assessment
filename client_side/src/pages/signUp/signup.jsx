@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './signup.css'
+import bg from '../../images/bg.png';
+
 const SignupPage = () =>
 {
     const Navigate = useNavigate();
@@ -63,7 +65,13 @@ const SignupPage = () =>
 
     return (
         <React.Fragment >
-            <div className='main-div'>
+            <div className='main-div'
+                style={{
+                    backgroundImage: `url(${bg})`,
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    height: '100vh',
+                }}>
                 <h1>SignUp</h1>
                 <form onSubmit={handleSubmit} className='form'>
                     {errorMessage && <span>{errorMessage}</span>}
